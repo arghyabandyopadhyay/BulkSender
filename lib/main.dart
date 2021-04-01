@@ -2,12 +2,16 @@ import 'package:BulkSender/Models/TabDataModel.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-import 'InputFormPage.dart';
+import 'package:logging/logging.dart';
+import 'package:logging_config/logging_config.dart';
+import 'Pages/InputFormPage.dart';
+import 'Pages/SaveBulkContactsPage.dart';
+import 'Pages/SaveBulkContactsPage.dart';
 import 'Tabs.dart';
-import 'UploadPage.dart';
+import 'Pages/UploadPage.dart';
 
 void main() {
+  configureLogging(LogConfig.root(Level.INFO));
   runApp(MyApp());
 }
 
@@ -33,7 +37,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Send Test Marks through Whatsapp'),
+      home: MyHomePage(title: 'Bulk Sender'),
     );
   }
 }
@@ -77,7 +81,8 @@ class _MyHomePageState extends State<MyHomePage> {
       isLoading: false,
       tabs: [
         new TabDataModel("Direct Input", InputFormPage(title: "Direct Input",)),
-        new TabDataModel("xsl Input", UploadPage())
+        new TabDataModel("xsl Input", UploadPage()),
+        new TabDataModel("Contacts", SaveBulkContactPage())
       ],
     ),);
   }

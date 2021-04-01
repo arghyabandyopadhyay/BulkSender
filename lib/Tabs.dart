@@ -29,7 +29,7 @@ class Tabs extends StatelessWidget{
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
     return DefaultTabController(
-      length: 2,
+      length: 3,
       initialIndex: 0,
       child: Container(
         width: screenWidth,

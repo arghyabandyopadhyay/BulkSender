@@ -26,6 +26,10 @@ dependencies:
   url_launcher: ^5.7.10
   file_picker: ^2.1.5+1
   excel: ^1.1.5
+  flutter_contact: ^0.6.4
+  permission_handler: ^5.1.0+2
+  flutter_platform_widgets: ^1.1.0
+  contacts_service: ^0.4.6
 
 
   # The following adds the Cupertino Icons font to your application.
