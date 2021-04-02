@@ -1,6 +1,9 @@
 # BulkSender
 
-A new Flutter project.
+A utility application.
+
+This is an application through which we can save contacts through excel sheets. We can also send Result through excel sheets.
+The template excel files are also uploaded for reference.
 
 ## Getting Started
 
