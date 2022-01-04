@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/BulkSender.iml" filepath="$PROJECT_DIR$/.idea/BulkSender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BulkSender.iml" filepath="$PROJECT_DIR$/BulkSender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/BulkSender_android.iml" filepath="$PROJECT_DIR$/android/BulkSender_android.iml" />
     </modules>
   </component>
 </project>

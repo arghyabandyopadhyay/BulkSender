@@ -1,21 +1,16 @@
 # BulkSender
 
-A utility application.
+A new Flutter project.
 
-This is an application through which we can save contacts through excel sheets. We can also send Result through excel sheets.
-The template excel files are also uploaded for reference.
+## Getting Started
 
-You can run and edit the dart code or contribute to them using Gitpod.io, a free online development environment, with a single click.
+This project is a starting point for a Flutter application.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/arghyabandyopadhyay/BulkSender)
+A few resources to get you started if this is your first Flutter project:
 
-### All the widgets, modules and models are implemented in Dart
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-## Contribution Guidelines
-
-Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
-
-## Community Channel
-
-We're on [Gitter](https://gitter.im/arghyabandyopadhyay/community)! Please join us.
-
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

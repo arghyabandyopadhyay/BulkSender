@@ -23,18 +23,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  url_launcher: ^5.7.10
-  file_picker: ^2.1.5+1
-  excel: ^1.1.5
-  flutter_contact: ^0.6.4
-  permission_handler: ^5.1.0+2
-  flutter_platform_widgets: ^1.1.0
-  contacts_service: ^0.4.6
+  url_launcher: ^6.0.9
+  file_picker: ^3.0.3
+  excel: ^2.0.0-null-safety-3
+  flutter_contact: ^0.8.1+2
+  permission_handler: ^8.1.4+2
+  flutter_platform_widgets: ^1.9.5
+  contacts_service: ^0.6.1
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.0
+  cupertino_icons: ^1.0.3
 
 dev_dependencies:
   flutter_test:
