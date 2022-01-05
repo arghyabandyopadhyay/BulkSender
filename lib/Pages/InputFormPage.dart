@@ -93,8 +93,8 @@ class _InputFormPageState extends State<InputFormPage> {
                   "Computer: *${computerSecondTextField.text}*/100\n"
                   "Total: *$totalSecond*/600\n\n\n";
         url = url +
-            "With Regards,\nGopa Bandyopadhyay,\n"
-                "Class Teacher I E\n";
+            "With Regards,\nContacts Name,\n"
+                "Class Teacher Class Name\n";
         if (await canLaunch(url)) {
           await launch(url);
           studentNameTextField.clear();
